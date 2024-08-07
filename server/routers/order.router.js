@@ -1,0 +1,13 @@
+const express=require('express')
+const {isAuthenticate,isOwner}=require('../middleware/middleware')
+const {createOrder,confirmOrder,cancelleOrder,sendOrderOtp,deliveredOrder,rejectOrder,giveReview,pendingOrders}=require('../controllers/order')
+const router=express.Router()
+router.post('/createOrder/:id',isAuthenticate,createOrder)
+router.post('/confirmorder/:id',isAuthenticate,confirmOrder)
+router.delete('/canceleorder/:id',isAuthenticate,cancelleOrder)
+router.post('/sendconfirmotp/:id',isAuthenticate,isOwner,sendOrderOtp)
+router.post('/deliveredorder/:id',isAuthenticate,isOwner,deliveredOrder)
+router.post('/rejectorder/:id',isAuthenticate,isOwner,rejectOrder)
+router.post('/reviewshop/:id',isAuthenticate,giveReview)
+router.get('/pendingorder/:id',isAuthenticate,isOwner,pendingOrders)
+module.exports=router

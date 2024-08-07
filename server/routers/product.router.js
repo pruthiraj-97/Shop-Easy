@@ -1,0 +1,11 @@
+const express=require('express')
+const router=express.Router()
+const {isAuthenticate}=require('../middleware/middleware')
+const {createProduct,createOffer,deleteOffer,updateProduct,getProduct,deleteProduct}=require('../controllers/product')
+router.post('/createproduct/:id',isAuthenticate,createProduct)
+router.post('/createoffer/:id',isAuthenticate,createOffer)
+router.delete('/deleteoffer/:id',isAuthenticate,deleteOffer)
+router.put('/updateproduct/:id',isAuthenticate,updateProduct)
+router.get('/getproduct/:id',isAuthenticate,getProduct)
+router.delete('/deleteproduct/:id',isAuthenticate,deleteProduct)
+module.exports=router

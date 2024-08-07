@@ -1,0 +1,13 @@
+const express=require('express')
+const {createShope,deleteShop,updateShop,getShops,filterShops,getShopDetails,getMyShop,getShopOrders}=require('../controllers/shope')
+const {isAuthenticate,isOwner}=require('../middleware/middleware')
+const router=express.Router()
+router.post('/addshop/:id',isAuthenticate,isOwner,createShope)
+router.delete('/deleteshop/:id',isAuthenticate,isOwner,deleteShop)
+router.put('/updateshop/:id',isAuthenticate,isOwner,updateShop)
+router.get('/getshops',isAuthenticate,getShops)
+router.get('/filtershops',isAuthenticate,filterShops)
+router.get('/getshopdetail/:id',isAuthenticate,getShopDetails)
+router.get('/getmyshop',isAuthenticate,getMyShop)
+router.get('/shoporders/:id',isAuthenticate,getShopOrders)
+module.exports=router

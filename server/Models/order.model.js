@@ -1,0 +1,39 @@
+const mongoose=require('mongoose')
+const orderschema=new mongoose.Schema({
+     shop:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'Shop'
+     },
+     products:{
+        type:Array,
+        default:[]
+     },
+     totalPrice:{
+        type:Number,
+        require:true
+     },
+     orderStatus:{
+        type:String,
+        require:true,
+        enum:['pending','delivered','cancelled','rejected']
+     },
+     user:{
+       type:mongoose.Schema.Types.ObjectId,
+       ref:'User',
+       require:true
+     },
+     contactNumber:{
+        type:Number,
+        require:true
+     },
+     address:{
+        type:String,
+        require:true
+     },
+     confirmOtp:{
+        type:Number,
+        require:true
+     }
+},{timestamps:true})
+
+module.exports=mongoose.model('Order',orderschema)
