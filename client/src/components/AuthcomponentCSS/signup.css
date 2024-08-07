@@ -1,0 +1,110 @@
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(255, 236, 236);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.contact-number-input {
+  display: flex;
+  align-items: center;
+}
+
+.send-otp-button {
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.send-otp-button:hover {
+  background-color: #10ec00;
+}
+
+.otp-input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+.login-link {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+.login-link Link {
+  color: red;
+  text-decoration: underline;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.login-link Link:hover {
+  color: darkblue;
+}
+.login{
+  text-decoration: none;
+  color: red;
+  font-size: 15px;
+}
+.password-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.otp-message{
+  font-size: 20px;
+  color: #0dbd00;
+}
+
+  
+  

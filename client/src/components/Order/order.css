@@ -1,0 +1,126 @@
+.order-product-container {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .order-shop-details {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .order-shop-details p{
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  .shop-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(62, 103, 0);
+  }
+  .shop-link:hover{
+    color: blue;
+  }
+  .order-shop-name {
+    font-size: 25px;
+    margin: 5px;
+    color: green;
+  }
+  
+  .order-shop-address {
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .order-status {
+    margin: 5px;
+    color: red;
+    font-size: 20px;
+  }
+  
+  .order-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1.5px dotted gold;
+    cursor: pointer;
+  }
+
+  
+  .order-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .order-product-details {
+    flex: 1;
+  }
+  
+  .order-product-name {
+    margin: 0;
+  }
+  
+  .order-product-quantity, .order-product-price {
+    margin: 0;
+  }
+  
+  .cancel-order-button, .send-confirm-otp-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .order-total-price {
+    font-size: 25px;
+  }
+  
+  .order-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .order-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+  }
+  .cancel-button{
+    width: 150px;
+  }
+  .confirmation-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .confirmation-modal p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .confirmation-modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  

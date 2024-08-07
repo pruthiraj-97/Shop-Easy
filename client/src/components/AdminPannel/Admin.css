@@ -1,0 +1,61 @@
+.admin-panel {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.admin-panel button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    height: 50px;
+}
+
+.admin-panel button:hover {
+    background-color: #0056b3;
+}
+
+.admin-panel form {
+    margin-top: 10px;
+}
+
+.admin-panel input[type="text"] {
+    width: calc(100% - 80px); /* Adjust width as needed */
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.admin-panel input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-panel input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

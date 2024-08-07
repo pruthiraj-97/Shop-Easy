@@ -1,0 +1,54 @@
+.myshop-order-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .myshop-orders-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .myshop-order-item {
+    width: 230px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(252, 241, 221);
+    cursor: pointer;
+  }
+  
+  .myshop-order-detail {
+    margin-bottom: 5px;
+  }
+  .myshop-order-item p{
+    font-size: 20px;
+  }
+  .myshop-order-status{
+    color: red;
+  }
+  .styled-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .styled-select:focus {
+    outline: none;
+  }
+  
+  .styled-select option {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .styled-select option[value="all"] { color: gold; }
+  .styled-select option[value="pending"] { color: blue; }
+  .styled-select option[value="delivered"] { color: green; }
+  .styled-select option[value="cancelled"] { color: red; }
+  
+  
+  

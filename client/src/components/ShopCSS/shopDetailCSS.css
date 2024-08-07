@@ -1,0 +1,29 @@
+.shop-details-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .shop-details {
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .products {
+      display: flex; /* Use flexbox */
+      flex-direction: column; /* Stack elements vertically */
+      margin-top: 20px;
+  }
+  @media screen and (width<=400px) {
+    .products {
+      display: flex; /* Use flexbox */
+      flex-direction: column; /* Stack elements vertically */
+      margin-top: 20px;
+      border: 1px solid rgb(16, 2, 2);
+    }
+    .shop-details-container{
+      /* border: 1px solid red; */
+    }
+  }

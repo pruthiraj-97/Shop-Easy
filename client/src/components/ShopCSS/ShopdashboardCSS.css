@@ -1,0 +1,106 @@
+.shop-dashboard{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+.shop-dashboard-heading{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+.catagory-container {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    gap: 10px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(234, 239, 244);
+  }
+  
+  .category-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .category-link:hover{
+    color: rgb(143, 220, 27);
+  }
+  .shop-container {
+    width: 100%; /* Adjust width as needed */
+    padding: 20px; /* Add padding */
+    background-color: #f8f8f8; /* Background color */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .shop-details {
+    font-size: 18px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    border: 1px dotted black;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shop-details h3 {
+    color: rgb(0, 203, 0);
+    text-align: center;
+  }
+  
+  .shop-details p {
+    margin: 5px 0; /* Adjust margin */
+    font-family: Georgia, serif;
+  }
+  
+  .p-shop-category{
+    font-size: 20px;
+    color: black; /* Set the color for the text content */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: yellow;
+    display: inline; /* Set display to inline */
+    padding: 2px;
+  }
+
+  @media only screen and (width<=400px) {
+    .catagory-container {
+      display: flex;
+      justify-content: flex-start; 
+      align-items: center;
+      flex-wrap: nowrap; 
+      overflow-x: auto; 
+      gap: 10px; 
+      padding-right: 20px;
+      padding-left: 20px;
+      background-color: rgb(234, 239, 244);
+    }
+    .shop-container {
+      width: 100%; /* Adjust width as needed */
+      padding: 20px; /* Add padding */
+      background-color: #f8f8f8; /* Background color */
+      border-radius: 10px; /* Add border radius */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid red;
+      margin-top: 10px;
+    }
+    .p-shop-category{
+      font-size: 20px;
+      color: black; /* Set the color for the text content */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: yellow;
+      display: inline; /* Set display to inline */
+      padding: 2px;
+    }
+  }
+  
+  
+  

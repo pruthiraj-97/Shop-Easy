@@ -1,0 +1,84 @@
+.shop-cart-container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(229, 255, 190);
+}
+
+.shop-name {
+  font-size: 30px;
+  color: green;
+  margin-bottom: 20px; /* Added margin-bottom to separate shop name and products */
+}
+
+.products-cart-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.create-order-button:hover {
+  background-color: #218838;
+}
+
+.create-order-button {
+  width: 150px;
+  height: 50px; /* Corrected typo: changed 5cqmin to 50px */
+  border-radius: 5px;
+  color: #fff;
+  background-color: green; /* Changed button background color to green */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-order-button:focus {
+  outline: none; /* Removed default focus outline */
+}
+
+.order-details {
+  margin-top: 20px; /* Added margin-top to separate order details from the products */
+}
+
+.order-details input {
+  margin-bottom: 10px; /* Added margin-bottom for input fields */
+  padding: 8px; /* Added padding to input fields */
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.order-details input:focus {
+  outline: none; /* Removed default focus outline */
+  border-color: #218838; /* Changed border color on focus */
+}
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.start-shopping-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.start-shopping-btn:hover {
+  background-color: #0056b3;
+}
+
+
+  
+  

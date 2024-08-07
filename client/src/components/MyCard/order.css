@@ -1,0 +1,62 @@
+.product-list-container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif; /* Optional: Define a font */
+  }
+  
+  .confirm-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .confirm-product {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(252, 242, 229);
+  }
+  
+  .confirm-product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .confirm-product-details {
+    text-align: center;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold; /* Optional: Make the total price text bold */
+  }
+  .confirm-order-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  .confirm-order-button:hover {
+    background-color: #0056b3;
+  }
+  .confirmation-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  
+  

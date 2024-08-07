@@ -1,0 +1,44 @@
+.About-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(223, 255, 174);
+    margin-top: 10px;
+  }
+  
+  .About-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .About-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .About-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .start-shopping-btn {
+    background-color: #00d026;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+    height: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .start-shopping-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  

@@ -1,0 +1,21 @@
+.confirmation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .yes-button, .no-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .yes-button:hover, .no-button:hover {
+    background-color: #0056b3;
+  }
+  .deliver-button{
+    width: 150px;
+  }
+  
